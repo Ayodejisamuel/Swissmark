@@ -7,11 +7,11 @@
 
 
  .getintouchdiv {
-     background-color: white;
+ 
      display: flex;
      flex-direction: column;
      position: absolute;
-     top: 5vh;
+     top: 0;
      left: 0;
      right: 0;
  }
@@ -26,6 +26,7 @@
      font-weight: 400;
      color: #877E7E;
      margin: 1.5rem auto;
+
 
  }
 
@@ -128,12 +129,13 @@
 
  #clients-container {
 
-     height: 30vh;
-     background: #FBF9F9;
+     height:30vh;
      position: absolute;
      bottom: 0;
      left: 0;
      right: 0;
+     background: rgba(251, 249, 249, 1);
+
 
  }
 
@@ -143,6 +145,8 @@
      font-size: 30px;
      margin: auto;
      width: 200px;
+     text-align: center;
+     padding-top: 1rem;
 
  }
 
@@ -151,7 +155,7 @@
  }
 
  .clientsimg-div {
-     height: 125px;
+     /* height: 125px; */
      margin: auto;
      display: flex;
      flex-direction: row;
@@ -159,6 +163,7 @@
      justify-content: space-around;
      position: absolute;
      bottom: 0;
+     top: 0;
      left: 0;
      right: 0;
  }
@@ -177,6 +182,13 @@
          width: calc(100vw - 1rem);
      }
 
+     .clientsimg-div {
+        flex-direction: ;
+     }
+
+
+     }
+
      .connectinput {
          margin-top: 10vh;
      }
@@ -185,7 +197,7 @@
          margin-top: 5vh;
      }
 
- }
+ 
 
  @media screen and (min-width: 767px) and (max-width: 999px) {
 
@@ -201,9 +213,14 @@
          text-align: center;
      }
 
+     .clientsimg-div {
+        display: flex;
+        flex-direction: row;
+     }
+
      .connectinput {
          width: 80vw;
-         margin: 10vh auto;
+         /* margin: 10vh auto; */
          /* background-color: red; */
      }
 
@@ -222,8 +239,10 @@
          margin: auto;
        
      }
- 
-     
+
+     .getwrapper-container {
+        
+     }
  }
 
 

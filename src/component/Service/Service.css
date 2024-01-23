@@ -85,8 +85,6 @@
     margin-top: .5rem;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 
@@ -158,6 +156,7 @@
 
 .card-wrapper p, .card-wrapper div {
     text-align: left;
+    padding-left: 1rem;
 }
 
 
@@ -168,7 +167,7 @@
 
     .partners-container {
         height: 60vh;
-        display: flex;
+        display: none;
         flex-direction: column;
     }
 }
