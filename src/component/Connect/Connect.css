@@ -1,0 +1,241 @@
+ #connect-container {
+     margin-top: 10vh;
+     height: 100vh;
+     position: relative;
+
+ }
+
+
+ .getintouchdiv {
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     top: 5vh;
+     left: 0;
+     right: 0;
+ }
+
+
+ .imgcontactdiv {
+     position: relative;
+     display: flex;
+     width: 400px;
+     align-items: center;
+     font-size: 20px;
+     font-weight: 400;
+     color: #877E7E;
+     margin: 1.5rem auto;
+
+ }
+
+ .imgcontactimg {
+     margin-right: 1rem;
+     color: #FBF9F9;
+ }
+
+ .imgcontactimgg {
+     margin-right: 1rem;
+     position: relative;
+     bottom: 1rem;
+
+
+ }
+
+ .inputdiv {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ input {
+     border: none;
+     border-bottom: 1px solid #707070;
+ }
+
+ input::placeholder {
+
+     position: relative;
+     top: -.5rem;
+     font-size: 1rem;
+
+ }
+
+
+ .get {
+
+     font-size: 40px;
+     font-weight: 400;
+     color: #2D7FC0;
+     margin-left: 1rem;
+
+
+ }
+
+ .getwrapper {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100vw;
+
+ }
+
+ .getwrapper-container {
+
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+
+
+ .getimgdiv {
+     position: relative;
+     padding: 1rem;
+
+ }
+
+ .getimg {
+     position: absolute;
+
+ }
+
+ .getimgdiv input {
+     width: 500px;
+     padding-left: 2rem;
+     font-size: 1.5rem;
+     background-color: transparent;
+
+ }
+
+ .send-btn {
+
+     width: 140px;
+     height: 50px;
+     font-size: 15px;
+     font-weight: 400;
+     background-color: #2D7FC0;
+     color: #FFFFFF;
+     outline: #2D7FC0;
+     margin-left: 1rem;
+     border: none;
+
+
+
+
+ }
+
+ #clients-container {
+
+     height: 30vh;
+     background: #FBF9F9;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+
+ }
+
+ .clients {
+     color: #707070;
+     font-weight: 600;
+     font-size: 30px;
+     margin: auto;
+     width: 200px;
+
+ }
+
+ .imgcontactdiv img {
+     margin-left: 1rem;
+ }
+
+ .clientsimg-div {
+     height: 125px;
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
+
+ @media screen and (max-width: 767px) {
+
+     .getwrapper-container {
+         display: none;
+     }
+
+     .getimgdiv input {
+         width: calc(90vw);
+     }
+
+     .getimgdiv {
+         width: calc(100vw - 1rem);
+     }
+
+     .connectinput {
+         margin-top: 10vh;
+     }
+
+     .send-btn {
+         margin-top: 5vh;
+     }
+
+ }
+
+ @media screen and (min-width: 767px) and (max-width: 999px) {
+
+     .getwrapper-container {
+         display: none;
+     }
+
+     .connectinput {
+         margin-top: 10vh;
+     }
+
+     .get {
+         text-align: center;
+     }
+
+     .connectinput {
+         width: 80vw;
+         margin: 10vh auto;
+         /* background-color: red; */
+     }
+
+     .send-btn {
+         margin-top: 5vh;
+     }
+
+     .getimgdiv input {
+         width: calc(100%);
+         margin: auto;
+     }
+
+     .getimgdiv {
+
+         align-content: center;
+         margin: auto;
+       
+     }
+ 
+     
+ }
+
+
+ @media screen and (min-width: 1100px) {
+     .getintouchdiv {
+         width: 90vw;
+         margin: auto;
+     }
+
+     .getwrapper {
+         width: 90vw;
+         margin: auto;
+     }
+
+ }

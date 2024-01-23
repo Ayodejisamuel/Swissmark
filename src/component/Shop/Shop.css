@@ -1,0 +1,95 @@
+#shop-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+.shop-wrapper {
+    margin: 5vh auto;
+}
+
+.shop-wrapper h3 {
+    color: #2D7FC0;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-divv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+
+}
+
+.shop-wrapper div {
+
+    color: #6B6060;
+    font-weight: 400;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+
+
+}
+
+.view-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #2D7FC0;
+    color: #FFFFFF;
+    border: none;
+    align-items: center;
+    margin: 5vh auto;
+
+}
+
+.card-wrapper span {
+    font-size: 20px;
+    color: #6B6060;
+    font-weight: 600;
+
+
+
+
+}
+
+.buy-btn {
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #2D7FC0;
+    color: #FFFFFF;
+    outline: 1px solid #2D7FC0;
+    border: none;
+    align-items: center;
+
+
+}
+
+.buy-btnn {
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2D7FC0;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    align-items: center;
+}
+
+.view-btn:hover {
+    width: 143px;
+    height: 57px;
+    border: none;
+}

@@ -1,0 +1,65 @@
+#intro-container {
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.intro-img {
+    height: 100vh;
+    width: 40vw
+}
+
+.intro-description {
+    width: 40vw ;
+    /* height: 100vh; */
+}
+
+.who {
+ 
+    color: #2D7FC0;
+    font-size: 40px;
+    line-height: 40px;
+
+
+}
+
+.mission {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 1rem auto;
+    color: #6B6060;
+}
+
+.mission span {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.business-container p {
+    color: #6B6060;
+    margin: 1rem auto;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+.more span {
+    color: #2D7FC0;
+    margin-right: .5rem;
+    ;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .intro-description {
+        width: 50vw;
+    }
+    
+}
