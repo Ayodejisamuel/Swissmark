@@ -14,6 +14,14 @@ const Intro = () => {
                 <img src={introimg} className='intro-img' alt={'intro-img'}/> 
             </div>
 
+        <div className='intromobile'>
+        <div className='whoo'>Who we are?</div>
+        <p className='intropara'>Business, we think should evoke splendour and espouse that perfect ambiance where every corner smells, shines and look like the main area. This is what we call creating a wholesome environment.A state of opulence where you combine artistic excellence and technical mastery. It’s luxury at its highest level of perfection.</p>
+
+        <div className='more'><span >Read More</span><img src={arrow} alt={'more-icon'}/></div> 
+        </div>
+
+
 
              <div className='intro-description'> 
                 <div className='who'>Who we are?</div>
