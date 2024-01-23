@@ -16,6 +16,7 @@ import arrow from '../../images/whitemessage (5).png'
 
 const Footer = () => {
     return (
+
         <div id='footer-container'>
             <div className='footer-wrapper'>
                 <div className='social-wrapper'>
@@ -29,7 +30,7 @@ const Footer = () => {
                     </div>
 
                     <div className='socials'>
-                        <div>
+                        <div className=''>
                             <p>Company</p>
                             <p>Services</p>
                         </div>
