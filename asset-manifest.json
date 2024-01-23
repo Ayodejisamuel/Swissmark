@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Swissmark/static/css/main.5957e7f4.css",
+    "main.css": "/Swissmark/static/css/main.625786fe.css",
     "main.js": "/Swissmark/static/js/main.9deb44fe.js",
     "static/js/787.b30f2593.chunk.js": "/Swissmark/static/js/787.b30f2593.chunk.js",
     "static/media/banner.jpg": "/Swissmark/static/media/banner.dc31d0587764f25d62cb.jpg",
@@ -15,12 +15,12 @@
     "static/media/casa (2).png": "/Swissmark/static/media/casa (2).1dcf94d6d5b7db5d79bf.png",
     "static/media/casa (1).png": "/Swissmark/static/media/casa (1).d63932f0199d81984e18.png",
     "index.html": "/Swissmark/index.html",
-    "main.5957e7f4.css.map": "/Swissmark/static/css/main.5957e7f4.css.map",
+    "main.625786fe.css.map": "/Swissmark/static/css/main.625786fe.css.map",
     "main.9deb44fe.js.map": "/Swissmark/static/js/main.9deb44fe.js.map",
     "787.b30f2593.chunk.js.map": "/Swissmark/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5957e7f4.css",
+    "static/css/main.625786fe.css",
     "static/js/main.9deb44fe.js"
   ]
 }
