@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Swissmark/static/css/main.52acfa21.css",
+    "main.js": "/Swissmark/static/js/main.8a76660d.js",
+    "static/js/787.b30f2593.chunk.js": "/Swissmark/static/js/787.b30f2593.chunk.js",
+    "static/media/banner.jpg": "/Swissmark/static/media/banner.dc31d0587764f25d62cb.jpg",
+    "static/media/footerimg.png": "/Swissmark/static/media/footerimg.563c2eeb7ef7de27d7c9.png",
+    "static/media/introimg.jpg": "/Swissmark/static/media/introimg.81a8653aee1d68c2b8bc.jpg",
+    "static/media/lamp.png": "/Swissmark/static/media/lamp.0c11f99d93a128a824d3.png",
+    "static/media/G013139 1.png": "/Swissmark/static/media/G013139 1.b3888ddd32bc2f2d13eb.png",
+    "static/media/cardimg1.jpg": "/Swissmark/static/media/cardimg1.c88f175756f4a11932aa.jpg",
+    "static/media/champagne_PNG17480 1.png": "/Swissmark/static/media/champagne_PNG17480 1.9d404c5e63906207bb7f.png",
+    "static/media/cardimg.jpg": "/Swissmark/static/media/cardimg.1a6e7d97dbf943590212.jpg",
+    "static/media/casa (3).png": "/Swissmark/static/media/casa (3).153cec69edbaca0eefa4.png",
+    "static/media/casa (2).png": "/Swissmark/static/media/casa (2).1dcf94d6d5b7db5d79bf.png",
+    "static/media/casa (1).png": "/Swissmark/static/media/casa (1).d63932f0199d81984e18.png",
+    "index.html": "/Swissmark/index.html",
+    "main.52acfa21.css.map": "/Swissmark/static/css/main.52acfa21.css.map",
+    "main.8a76660d.js.map": "/Swissmark/static/js/main.8a76660d.js.map",
+    "787.b30f2593.chunk.js.map": "/Swissmark/static/js/787.b30f2593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52acfa21.css",
+    "static/js/main.8a76660d.js"
+  ]
+}
