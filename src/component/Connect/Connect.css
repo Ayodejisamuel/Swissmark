@@ -7,7 +7,7 @@
 
 
  .getintouchdiv {
- 
+ background-color: red;
      display: flex;
      flex-direction: column;
      position: absolute;
@@ -182,10 +182,6 @@
          width: calc(100vw - 1rem);
      }
 
-     .clientsimg-div {
-        flex-direction: ;
-     }
-
 
      }
 
@@ -240,9 +236,7 @@
        
      }
 
-     .getwrapper-container {
-        
-     }
+     
  }
 
 
