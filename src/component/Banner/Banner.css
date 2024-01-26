@@ -451,11 +451,13 @@
 
 
    .learn {
-      top: 650px;
+      top:35rem;
    }
 
    .learn p {
+
       left: 17rem;
+      
    }
 
    .description span {
