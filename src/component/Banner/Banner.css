@@ -179,6 +179,8 @@
 
    }
 
+   .learn p
+
    .navbar.visible {
 
       display: flex;
@@ -387,6 +389,25 @@
       left: 1rem;
    }
 
+   
+   .learn {
+      left: 1rem;
+
+      top: 60vh;
+   }
+
+   .learn p {
+      left: -1rem;
+      top: 5rem;
+      font-size: 20px;
+   }
+
+   .learn-btn {
+      position: absolute;
+      bottom: -15rem;
+   }
+
+
 
 
 }
@@ -427,8 +448,14 @@
       font-size: 20px;
    }
 
+
+
    .learn {
-      top: 550px;
+      top: 650px;
+   }
+
+   .learn p {
+      left: 17rem;
    }
 
    .description span {
