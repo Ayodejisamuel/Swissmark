@@ -15,17 +15,21 @@ const Service = () => {
                 <h3>Our Service</h3>
                 <div>At SwissMarkk, we provide wholesome hygiene and scenting solutions.</div>
             </div>
-                <div className='card-div'>
+
+                <div className='card-div'>                    
                     <div className='card-wrapper'>
                         <img src={cardimg1} className='cardimg' width={300} height={200} alt={cardimg1} />
                         <p>Scenting</p>
                         <div className='business'>Let your business smell like it belongs to you. That’s the essence of scent marketing.</div>
                     </div>
+
                     <div className='card-wrapper'>
                         <img src={cardimg} className='cardimg' width={300} height={200} alt={cardimg1} />
                         <p>Scenting</p>
-                        <div className='business'>Let your business smell like it belongs to you. That’s the essence of scent marketing.</div>
+                        <div className='business'> Hygiene is a state of flawlessness. It’s a Standard you should attain. Learn why hygiene matters.</div>
+
                     </div>
+
                 </div>
             </div>
 

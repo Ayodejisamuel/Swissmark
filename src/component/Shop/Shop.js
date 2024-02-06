@@ -20,7 +20,7 @@ const Shop = () => {
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
                       <span>N25,000</span>
-                        <div>
+                        <div className='buydiv'>
                             <button className='buy-btn' >Add to Cart</button>
                             <button className='buy-btnn'>Buy</button>
                         </div>
@@ -30,7 +30,7 @@ const Shop = () => {
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
                       <span>N25,000</span>
-                      <div>
+                      <div className='buydiv'>
                             <button className='buy-btn' >Add to Cart</button>
                             <button className='buy-btnn'>Buy</button>
                         </div>
@@ -40,7 +40,7 @@ const Shop = () => {
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
                       <span>N25,000</span>
-                      <div>
+                      <div className='buydiv'>
                             <button className='buy-btn' >Add to Cart</button>
                             <button className='buy-btnn'>Buy</button>
                         </div>
@@ -52,7 +52,7 @@ const Shop = () => {
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
                       <span>N25,000</span>
-                      <div>
+                      <div className='buydiv'>
                             <button className='buy-btn' >Add to Cart</button>
                             <button className='buy-btnn'>Buy</button>
                         </div>
