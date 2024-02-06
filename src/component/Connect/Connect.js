@@ -29,10 +29,10 @@ const Connect = () => {
                     </div>
 
                     <div className='connectinput'>
-                        <div className='getimgdiv'>< img src={person} width={17} height={17} className='getimg' /><input type='text' placeholder='Full Name'></input> <br /></div>
-                        <div className='getimgdiv'>< img src={contact} width={22} height={16} className='getimg' /> <input type='email' placeholder='Email Address'></input></div><br />
-                        <div className='getimgdiv'>< img src={phone} width={17} height={17} className='getimg' /><input type='number' placeholder='Phone Number '></input></div><br />
-                        <div className='getimgdiv'>< img src={message} width={17} height={17} className='getimg' /><input type='text' placeholder='Your Message'></input></div><br />
+                        <div className='getimgdiv'>< img src={person} width={17} height={17} alt={person} className='getimg' /><input type='text' placeholder='Full Name'></input> <br /></div>
+                        <div className='getimgdiv'>< img src={contact} alt={contact} width={22} height={16} className='getimg' /> <input type='email' placeholder='Email Address'></input></div><br />
+                        <div className='getimgdiv'>< img src={phone} alt={phone} width={17} height={17} className='getimg' /><input type='number' placeholder='Phone Number '></input></div><br />
+                        <div className='getimgdiv'>< img src={message} alt={message} width={17} height={17} className='getimg' /><input type='text' placeholder='Your Message'></input></div><br />
                         <button className='send-btn'>SEND</button>
                     </div>
                 </div>
