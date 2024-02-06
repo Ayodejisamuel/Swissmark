@@ -22,15 +22,15 @@ const Connect = () => {
                     <div className='getwrapper-container'>
 
                         <div className='imgcontactdiv'><img src={map} alt={map} className='imgcontactimgg' width={17} height={17} ></img> <span>6b Bendel Close, Off Bishop Aboyade Cole, Victoria Island, Lagos, Nigeria</span></div>
-                        <div className='imgcontactdiv'><img src={phone} alt={phone} className='imgcontactimg' width={17} height={17} ></img> <span>+234-1 342 8350</span></div>
+                        <div className='imgcontactdiv'><img src={phone} alt={phone} className='imgcontactimg' width={17} height={17} ></img> <a href='tel:+234-1 342 8350'>+234-1 342 8350</a></div>
                         <div className='imgcontactdiv'><img src={calender} alt={calender} className='imgcontactimg' width={17} height={17}  ></img> <span>8:00 – 6:00pm, Mon – Sat</span></div>
-                        <div className='imgcontactdiv'><img src={contact} alt={contact} className='imgcontactimg' width={17} height={17}  ></img> <span>info@swissmarkk.com</span></div>
+                        <div className='imgcontactdiv'><img src={contact} alt={contact} className='imgcontactimg' width={22} height={16}  ></img> <a href='mailto:ayodejisamuel80@gmail.com  subject=information' >info@swissmarkk.com</a></div>
 
                     </div>
 
                     <div className='connectinput'>
                         <div className='getimgdiv'>< img src={person} width={17} height={17} className='getimg' /><input type='text' placeholder='Full Name'></input> <br /></div>
-                        <div className='getimgdiv'>< img src={contact} width={17} height={17} className='getimg' /> <input type='email' placeholder='Email Address'></input></div><br />
+                        <div className='getimgdiv'>< img src={contact} width={22} height={16} className='getimg' /> <input type='email' placeholder='Email Address'></input></div><br />
                         <div className='getimgdiv'>< img src={phone} width={17} height={17} className='getimg' /><input type='number' placeholder='Phone Number '></input></div><br />
                         <div className='getimgdiv'>< img src={message} width={17} height={17} className='getimg' /><input type='text' placeholder='Your Message'></input></div><br />
                         <button className='send-btn'>SEND</button>

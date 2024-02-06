@@ -6,6 +6,11 @@
    text-decoration: none;
    box-sizing: border-box;
    list-style-type: none;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -54,7 +59,7 @@
 
 .navbar a {
    color: #FFFFFF;
-   font-size: 20px;
+   font-size: 18px;
    margin: auto .4rem;
    line-height: 30px;
    cursor: pointer;
