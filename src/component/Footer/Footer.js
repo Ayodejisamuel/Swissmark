@@ -17,7 +17,7 @@ import arrow from '../../images/whitemessage (5).png'
 const Footer = () => {
     return (
 
-        <div id='footer-container'>
+        <div id='blog'>
             <div className='footer-wrapper'>
                 <div className='social-wrapper'>
                     <div><img src={logoimg} alt={logoimg} /></div>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <div className='formdiv'>
 
                     <div className='emaildiv'>< img src={message} alt={message} width={22} height={16} className='emailimg' /> <input type='email' placeholder='Email Your Email Address'></input>< img src={arrow} alt={arrow} width={17} height={17} className='emailimgg' /></div><br />
-                    <div className='imgcontactdivv'><img src={location} alt={location} className='imgcontactimgg' width={22} height={16} ></img> <span>6b Bendel Close, Off Bishop Aboyade Cole, Victoria Island, Lagos, Nigeria</span></div>
+                    <div className='imgcontactdivv'><img src={location} alt={location} className='imgcontactimgg' width={17} height={16} ></img> <span>6b Bendel Close, Off Bishop Aboyade Cole, Victoria Island, Lagos, Nigeria</span></div>
                     <div className='imgcontactdivv'><img src={call} alt={call} className='imgcontactimg' width={17} height={17} ></img> <a className='anchor' href='tel:+234-1 342 8350'>+234-1 342 8350</a></div>
                     <div className='imgcontactdivv'><img src={calenderr} alt={calenderr} className='imgcontactimg' width={17} height={17}  ></img> <span>8:00 – 6:00pm, Mon – Sat</span></div>
                     <div className='imgcontactdivv'><img src={message} alt={message} className='imgcontactimg' width={22} height={16}  ></img> <a className='anchor' href='mailto:info@swissmarkk.com'>info@swissmarkk.com</a></div>

@@ -7,7 +7,7 @@ import perfume from '../../images/G013139 1.png'
 
 const Shop = () => {
     return (
-        <div id='shop-container'>
+        <div id='shop'>
             <div className='shop-wrapper'>
                 <h3>Shop</h3>
                 <div>At SwissMarkk, we provide wholesome hygiene solutions.</div>

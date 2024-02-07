@@ -12,7 +12,7 @@ import person from '../../images/contact.png'
 
 const Connect = () => {
     return (
-        <div id='connect-container'>
+        <div id='get-in-touch'>
 
             <div className='getintouchdiv'>
 
@@ -40,7 +40,7 @@ const Connect = () => {
             </div>
 
 
-         <div id='clients-container'>
+         <div id='client'>
                 <div className='clients'>Our Clients</div>
              <div className='clientsimg-div'>
                     <img src={casa2} width={100} alt={casa1} />

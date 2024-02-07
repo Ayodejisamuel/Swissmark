@@ -10,7 +10,7 @@ import nilfik from '../../images/Nilfisk (1).png'
 const Service = () => {
     return (
 
-        <div id='service-container'>
+        <div id='what-we-do'>
             <div className='service-wrapper'><div>
                 <h3>Our Service</h3>
                 <div>At SwissMarkk, we provide wholesome hygiene and scenting solutions.</div>

@@ -25,14 +25,14 @@ const Banner = () => {
 
       <div className={`navbar ${navOpen ? 'visible' : ""}`}>
 
-        <a href='#Banner-container'>Company</a>
-        <a href='#intro-container'>Who we are </a>
-        <a href='#service-container'>What we do</a>
-        <a href='#connect-container'>Get in touch</a>
-        <a href='#shop-container '>Shop</a>
+        <a href='#company'>Company</a>
+        <a href='#who-we-are'>Who we are </a>
+        <a href='#what-we-do'>What we do</a>
+        <a href='#get-in-touch'>Get in touch</a>
+        <a href='#shop'>Shop</a>
         <a href=''>Solutions</a>
-        <a href='#connect-container'>Our Clientele</a>
-        <a href='#footer-container'>Blog</a>
+        <a href='#client'>Our Clientele</a>
+        <a href='#blog'>Blog</a>
 
       </div>
       

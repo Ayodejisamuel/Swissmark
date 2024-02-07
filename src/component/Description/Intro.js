@@ -8,7 +8,7 @@ import arrow from '../../images/arrow.png'
 
 const Intro = () => {
     return (
-        <div id='intro-container'>
+        <div id='who-we-are'>
 
             <div className='itro-img-div'>
                 <img src={introimg} className='intro-img' alt={'intro-img'}/> 
