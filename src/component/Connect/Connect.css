@@ -156,6 +156,10 @@
      margin-left: 1rem;
  }
 
+ .ancho {
+    color:#707070;
+ }
+
  .clientsimg-div {
      /* height: 125px; */
      margin: auto;
