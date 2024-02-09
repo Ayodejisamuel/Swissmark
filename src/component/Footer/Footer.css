@@ -153,9 +153,7 @@
         display: none;
     }
 
-    .social-wrapper {
-      
-    }
+    
 
     .socials {
  
@@ -169,10 +167,7 @@
         text-align:left;  */
     }
 
-    .inner {
-        /* display: flex;
-        flex-direction: column; */
-    }
+   
 
     .social-wrapper {
         margin: auto;
