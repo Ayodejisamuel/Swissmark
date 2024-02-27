@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
 }
 
 #Banner-container {
@@ -25,6 +26,7 @@
    font-style: normal;
    color: #FFFFFF;
    position: relative;
+     overflow-x: hidden;
 }
 
 .toggle {
@@ -70,6 +72,7 @@
 .navbar a:hover {
    border-bottom: 3px solid #2D7FC0;
 }
+
 
 
 .description {
@@ -130,28 +133,7 @@
 
 }
 
-
-
-@media screen and (max-width:px) {
-
-   .description {
-      font-size: 24px;
-      line-height: 85px;
-      left: 1rem;
-      font-weight: 400;
-   
  
-   }
-
-   
-
-   .description span {
-      font-weight: 400;
-   }
- 
-
-   
-}  
 
 
 @media screen and (min-width: 270px) and (max-width: 324px) {
@@ -236,7 +218,7 @@
 
 
 
-@media screen and (min-width: 325px) and (max-width: 399px) {
+@media screen and (min-width: 325px) and (max-width: 440px) {
 
    .toggle {
       display: flex;
@@ -307,7 +289,7 @@
 
 }
 
-@media screen and (min-width:400px) and (max-width: 767px) {
+@media screen and (min-width:441px) and (max-width: 767px) {
 
    .toggle {
       display: flex;
@@ -388,7 +370,15 @@
 
    .description {
       left: 1rem;
-      top: 11rem;
+      top:35vh;
+       font-size: 55px;
+      line-height: 78px;  
+ 
+   }
+
+   .description span {
+      font-size: 50px;
+      /* line-height:400px ; */
    }
 
    .learn {
@@ -429,8 +419,9 @@
       left: 17rem;
       /* width: 100vw; */
    }
+
 .description {
-   top: 31vh;
+   top: 35vh;
 }
    .navbar a {
       margin: auto .4rem;
@@ -439,6 +430,9 @@
    .mobile {
       display: none;
    }
+.learn {
+   top: 33rem;
+}
 
 }
 
@@ -454,6 +448,10 @@
 
    .navbar a {
       font-size: 20px;
+   }
+
+   .description {
+      top: 30vh;
    }
 
 
