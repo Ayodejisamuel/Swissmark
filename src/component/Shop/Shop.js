@@ -15,7 +15,7 @@ const Shop = () => {
 
             <div >
                 <div className='card-divv'>
-                    <div className='card-wrapper'>
+                    <div className='card-wrapperr'>
                         <img src={champaigne} className='cardimg' width={280} height={200} alt={champaigne} />
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
@@ -25,7 +25,7 @@ const Shop = () => {
                             <button className='buy-btnn'>Buy</button>
                         </div>
                     </div>
-                    <div className='card-wrapper'>
+                    <div className='card-wrapperr'>
                         <img src={perfume} className='cardimg' width={280} height={200} alt={perfume} />
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
@@ -35,7 +35,7 @@ const Shop = () => {
                             <button className='buy-btnn'>Buy</button>
                         </div>
                     </div>
-                    <div className='card-wrapper'>
+                    <div className='card-wrapperr'>
                         <img src={lamp} className='cardimg' width={280} height={200} alt={lamp} />
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
@@ -47,7 +47,7 @@ const Shop = () => {
                       
                     </div>
 
-                    <div className='card-wrapper'>
+                    <div className='card-wrapperr'>
                         <img src={lamp} className='cardimg' width={280} height={200} alt={perfume} />
                         <p>Scenting</p>
                         <div className='business'>Create a wonderful love expression</div>
