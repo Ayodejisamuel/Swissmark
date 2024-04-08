@@ -27,6 +27,7 @@
    color: #FFFFFF;
    position: relative;
      overflow-x: hidden;
+     overflow-y: hidden;
 }
 
 .toggle {
@@ -377,8 +378,8 @@
    }
 
    .description span {
+
       font-size: 50px;
-      /* line-height:400px ; */
    }
 
    .learn {
@@ -430,10 +431,10 @@
    .mobile {
       display: none;
    }
+   
 .learn {
    top: 33rem;
 }
-
 }
 
 
@@ -452,12 +453,11 @@
 
    .description {
       top: 30vh;
+      
    }
 
-
-
    .learn {
-      top:35rem;
+      top:33rem;
    }
 
    .learn p {
@@ -472,6 +472,21 @@
 
    .learn-btn {
       width: 260px;
+   }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+
+   .description {
+      top: 35vh;
+   }
+
+
+
+   .learn {
+      top:35rem;
    }
 
 }

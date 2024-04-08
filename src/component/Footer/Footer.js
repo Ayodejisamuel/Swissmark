@@ -31,18 +31,18 @@ const Footer = () => {
 
                     <div className='socials'>
                         <div className='inner'>
-                            <p>Company</p>
-                            <p>Services</p>
+                       <p><a className='' href='#company'>Company</a></p> 
+                        <p><a href='#what-we-do'>Services</a></p>
                         </div>
 
                         <div className='inner'>
-                            <p>Shop</p>
+                        <p><a href='#shop'>Shop</a></p>
                             <p>Case Studies</p>
                         </div>
 
                         <div className='inner'>
                             <p>Knowledge base</p>
-                            <p>Contact</p>
+                            <p><a href='#get-in-touch'>Contact</a></p>
                         </div>
                     </div>
                 </div>

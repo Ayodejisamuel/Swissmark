@@ -13,25 +13,25 @@ const Banner = () => {
   const toggleNav = () => {
     setNavOpen(!navOpen)
   }
+
   return (
 
     <div id='Banner-container'>
 
-      <img src={logo} alt={logo} className='mobile'></img>
+      <img src={logo} alt={logo} className='mobile' />
 
       <div className='toggle' onClick={toggleNav}>
 
-        {navOpen ? <img src={hambugger1} height={30} width={30} alt={hambugger}   ></img>
+        {navOpen ? <img src={hambugger1} height={30} width={30} alt={hambugger}   />
 
           :
-
-          <img src={hambugger} alt={hambugger}   ></img>
+        
+        <img src={hambugger} alt={hambugger} />
         }
 
       </div>
 
-
-      <div className={`navbar ${navOpen ? 'visible' : ""}`}>
+      <div className={`navbar ${navOpen ? 'visible' : ''}`}>
 
         <a className='' href='#company'>Company</a>
         <a href='#who-we-are'>Who we are </a>
