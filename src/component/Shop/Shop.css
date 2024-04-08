@@ -25,6 +25,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
+ 
 
 }
 
@@ -101,10 +102,27 @@
     border: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 766px) {
 
     .card-wrapper span {
         margin-left: 1rem;
     }
     
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .card-divv {
+        /* flex-direction: row; */
+        /* justify-content: center; */
+    }
+
+    .card-wrapper {
+        width: 40% ;
+        margin:5% auto;
+    }
+    
+}
+
+
